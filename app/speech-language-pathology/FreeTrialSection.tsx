@@ -12,49 +12,49 @@ export default function FreeTrialSection() {
 
         {/* Benefits Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-          <div className="flex items-start space-x-reverse space-x-4">
+          <div className="flex items-start gap-4">
             <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
               <svg className="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
             </div>
-            <div className="text-right">
+            <div className="text-start">
               <h3 className="font-semibold text-slate-800 mb-1">חוו את האפליקציה ללא סיכון</h3>
               <p className="text-slate-600">קבלו תחושה אמיתית של איך האפליקציה עובדת</p>
             </div>
           </div>
 
-          <div className="flex items-start space-x-reverse space-x-4">
+          <div className="flex items-start gap-4">
             <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
               <svg className="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
             </div>
-            <div className="text-right">
+            <div className="text-start">
               <h3 className="font-semibold text-slate-800 mb-1">ראו איך המעקב התקדמות עובד</h3>
               <p className="text-slate-600">הבינו איך האפליקציה עוזרת לזהות נקודות חולשה</p>
             </div>
           </div>
 
-          <div className="flex items-start space-x-reverse space-x-4">
+          <div className="flex items-start gap-4">
             <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
               <svg className="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
             </div>
-            <div className="text-right">
+            <div className="text-start">
               <h3 className="font-semibold text-slate-800 mb-1">הרגישו את הסימולציה המציאותית</h3>
               <p className="text-slate-600">טעמו מההתנסות של בחינה אמיתית</p>
             </div>
           </div>
 
-          <div className="flex items-start space-x-reverse space-x-4">
+          <div className="flex items-start gap-4">
             <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
               <svg className="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
             </div>
-            <div className="text-right">
+            <div className="text-start">
               <h3 className="font-semibold text-slate-800 mb-1">ללא כרטיס אשראי או התחייבות</h3>
               <p className="text-slate-600">פשוט התחילו מיד ללא תשלום</p>
             </div>

@@ -13,49 +13,49 @@ export default function ConfidenceSection() {
             </p>
             
             <div className="space-y-6">
-              <div className="flex items-start space-x-reverse space-x-4">
+              <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
                   <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
-                <div className="text-right">
+                <div className="text-start">
                   <h3 className="text-xl font-semibold text-slate-800 mb-2">תדעו בדיוק איפה אתם עומדים</h3>
                   <p className="text-slate-600">מעקב מפורט יראה לכם את רמת ההכנה האמיתית שלכם</p>
                 </div>
               </div>
 
-              <div className="flex items-start space-x-reverse space-x-4">
+              <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
                   <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                 </div>
-                <div className="text-right">
+                <div className="text-start">
                   <h3 className="text-xl font-semibold text-slate-800 mb-2">תרגישו גאים בהתקדמות שלכם</h3>
                   <p className="text-slate-600">ראו את השיפור הקבוע ותחגגו כל הישג קטן וגדול</p>
                 </div>
               </div>
 
-              <div className="flex items-start space-x-reverse space-x-4">
+              <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center flex-shrink-0">
                   <svg className="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
                   </svg>
                 </div>
-                <div className="text-right">
+                <div className="text-start">
                   <h3 className="text-xl font-semibold text-slate-800 mb-2">תגיעו לבחינה עם ביטחון מלא</h3>
                   <p className="text-slate-600">ההכנה המקיפה תעניק לכם את הביטחון שאתם צריכים</p>
                 </div>
               </div>
 
-              <div className="flex items-start space-x-reverse space-x-4">
+              <div className="flex items-start gap-4">
                 <div className="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center flex-shrink-0">
                   <svg className="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                   </svg>
                 </div>
-                <div className="text-right">
+                <div className="text-start">
                   <h3 className="text-xl font-semibold text-slate-800 mb-2">תשיגו את המטרה שלכם</h3>
                   <p className="text-slate-600">הפכו להיות קלינאים מוסמכים ומקצועיים</p>
                 </div>
@@ -74,10 +74,10 @@ export default function ConfidenceSection() {
                 </div>
               </div>
               {/* Floating elements */}
-              <div className="absolute -top-4 -right-4 w-16 h-16 bg-yellow-200 rounded-full flex items-center justify-center">
+              <div className="absolute -top-4 -end-4 w-16 h-16 bg-yellow-200 rounded-full flex items-center justify-center">
                 <span className="text-2xl">⭐</span>
               </div>
-              <div className="absolute -bottom-4 -left-4 w-12 h-12 bg-green-200 rounded-full flex items-center justify-center">
+              <div className="absolute -bottom-4 -start-4 w-12 h-12 bg-green-200 rounded-full flex items-center justify-center">
                 <span className="text-xl">✓</span>
               </div>
             </div>

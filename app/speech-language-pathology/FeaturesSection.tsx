@@ -35,10 +35,10 @@ export default function FeaturesSection() {
             className={`flex flex-col lg:flex-row ${f.reverse ? 'lg:flex-row-reverse' : ''} items-center gap-12 mb-24 last:mb-0`}
           >
             <div className="lg:w-1/2 w-full">
-              <h1 className="text-4xl lg:text-5xl font-black text-slate-800 mb-6 text-center lg:text-right leading-tight">
+              <h1 className="text-4xl lg:text-5xl font-black text-slate-800 mb-6 text-center lg:text-start leading-tight">
                 {f.title}
               </h1>
-              <p className="text-lg text-slate-600 text-center lg:text-right leading-relaxed max-w-lg mx-auto lg:mx-0">
+              <p className="text-lg text-slate-600 text-center lg:text-start leading-relaxed max-w-lg mx-auto lg:mx-0">
                 {f.desc}
               </p>
             </div>
